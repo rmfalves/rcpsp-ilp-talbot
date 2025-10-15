@@ -38,7 +38,7 @@ EXSRCJAVA     = $(EXDIR)/src/java
 CFLAGS  = $(COPT)  -I$(CPLEXINCDIR)
 CCFLAGS = $(CCOPT) -I$(CPLEXINCDIR) -I$(CONCERTINCDIR) 
 
-CPP_EX = pdsl
+CPP_EX = rcpsp-ilp-talbot
 
 clean:
 	/bin/rm -f *.o
